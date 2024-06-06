@@ -2,6 +2,7 @@ import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { IoCallSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.svg"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="p-3 bottom lg:flex items-center justify-between ">
-        <div className="lg:hidden">
+        <div className="lg:hidden bg-white rounded">
           <IoMdMenu
             onClick={() => setOpen(!open)}
             className="text-4xl cursor-pointer"
@@ -25,22 +26,20 @@ const Navbar = () => {
         <div className="lg:flex bottom-inner text-center items-center p-2 gap-2">
           <img
             className="w-20 inline "
-            src="https://i.ibb.co/YZDVhZS/logo-607597e43ea7.png"
-            alt=""
+            src={logo}
+            alt="logo.png"
           />
           <div>
             <h1 className="text-3xl font-medium text-[#2e3192]">
-              Carton Manufacturers Ltd
+            SKD PRINTING & PACKAGING
             </h1>
-            <p>Packaging that differentiates you...</p>
+            <p>“One of the leading corrugated master carton industry”</p>
           </div>
           {open && (
             <div
-              className={`list-none lg:hidden mt-3 cursor-pointer font-bold ${
-                open ? "duration-500" : "hidden"
-              }`}
+              className={`list-none lg:hidden mt-3 cursor-pointer font-bold duration-500`}
             >
-              <Link to="/about_us" className="border p-2">About us</Link>
+              <li  to="/about_us" className="border p-2"><Link to="/about_us">About us</Link></li>
               <li className="border p-2">Products</li>
               <li className="border p-2">Careers</li>
               <li className="border p-2">Contact</li>
@@ -48,10 +47,11 @@ const Navbar = () => {
           )}
         </div>
         <div className="lg:flex items-center hidden gap-6 font-bold list-none	">
-          <li className="border-b-2 cursor-pointer hover:border-b-4 hover:border-[#7fb069]">About us</li>
-          <li>Products</li>
-          <li>Careers</li>
-          <li>Contact</li>
+          <Link to="/about_us" className="border-b-2 cursor-pointer hover:border-b-4 hover:border-[#7fb069]">About us</Link>
+          <Link className="border-b-2 cursor-pointer hover:border-b-4 hover:border-[#7fb069]">Products</Link>
+          <Link className="border-b-2 cursor-pointer hover:border-b-4 hover:border-[#7fb069]">Careers</Link>
+          <Link className="border-b-2 cursor-pointer hover:border-b-4 hover:border-[#7fb069]">Contact</Link>
+         
         </div>
       </div>
     </nav>
