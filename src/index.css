@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.bottom{
+    background-image: url("https://i.ibb.co/TcTFLRz/carton-bg-33ff3f40544d.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+
+}
+.bottom-inner{
+    background-color: #ffffffcc;
+    
+}
