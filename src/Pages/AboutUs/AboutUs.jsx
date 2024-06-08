@@ -12,86 +12,84 @@ const AboutUs = () => {
         /<p>About us</p>
       </div>
       <div className="max-w-screen-xl px-12 mx-auto">
-        <div className="border-2 rounded p-8 mt-12 border-r-gray-400 border-b-gray-400">
-          <h1 className="text-4xl font-semibold text-[#7fb069]">About us</h1>
-          <p className="text-xl font-semibold text-[#7fb069] mt-4">
-            Thinking beyond the box
+        <div className="border-2 rounded p-8 text-center mt-12 border-r-gray-400 border-b-gray-400 space-y-6">
+          <h1 className=" text-2xl ">Quality Assurance</h1>
+          <p className="text-center ">
+            Being a quality conscious organization, we are committed to offer a
+            qualitative range of Packaging Materials to our clients. Our
+            Packaging products undergo stringent quality tests in order to meet
+            the quality standards. Right from sample approvals to final
+            dispatch, our products are checked in order to ensure their quality.
           </p>
-          <p className="mt-4">
-            Carton Manufacturers Ltd is a family owned business which was
-            founded in 1979. Over the years we have established ourselves as one
-            of the biggest and most reliable corrugated box manufacturing plants
-            in Kenya. With true dedication to customer service, we have now
-            expanded our portfolio of products into a wider range of packaging
-            materials, including self-adhesive labels and flexible packaging.
+          <h1 className="text-2xl">Team</h1>
+          <p>
+            Our organization is backed with a highly qualified and experienced
+            team of experts and professionals whose efforts have helped us to
+            earn a reputed name in the market. Their expertise and rich
+            industrial experience have helped the company to constantly climb
+            the ladders of success. They work in close coordination and harmony
+            to keep a regular tab on the market trends and needs.
           </p>
-          <h1 className="mt-4 font-semibold text-2xl text-[#7fb069] ">
-            Our commitment to quality
-          </h1>
-          <p className="mt-4 font-bold">We are committed to:</p>
-          <div className="mt-4 ml-4">
-            <li>Understanding our customers needs</li>
-            <li>Ensuring quality in everything we do</li>
-            <li>Pledging we deliver in full and on time</li>
-            <li>Competitive pricing</li>
+          <h1 className="text-2xl">Why Us?</h1>
+          <p>
+            We offer quality products that have helped us to develop a strong
+            customer base all across the Country. Some of the reasons why we are
+            counted above our competitors are:
+          </p>
+          <div className="text-center mt-8">
+            <p>International quality</p>
+            <hr className="mt-4 border" />
+            <p className="mt-3">Use of latest technology</p>
+            <hr className="mt-4 border" />
+            <p className="mt-3">Ethical business practice</p>
+            <hr className="mt-4 border" />
+            <p className="mt-3">Efficient team</p>
+            <hr className="mt-4 border" />
+            <p className="mt-3">Customization facility</p>
+            <hr className="mt-4 border" />
+            <p className="mt-3">Timely delivery</p>
+            <p className="mt-6">
+              Guided by these factors, all our endeavors are directed towards
+              attaining maximum customer satisfaction.
+            </p>
           </div>
-          <p className="mt-4">
-            Our commitment to quality and excellence in services is reflected by
-            our ISO 9001:2008 certification. We strongly believe in the
-            implementation of continual improvement projects, systems and
-            investment in state-of-the art technology.
-          </p>
-          <div className="mt-12 space-y-6">
-            <h1 className="text-xl font-bold">Quality Policy Statement</h1>
-            <p>
-              Carton Manufacturers Limited is committed to being the customer’s
-              preferred supplier for corrugated packaging and labels, by
-              delivering quality products on time in accordance with the highest
-              professional standards
+          <div className="text-center pt-12">
+            <h1 className="text-2xl">Summery</h1>
+            <p className="pt-6">
+              <span className="font-semibold">Name of Institution :</span> SDK
+              Printing & Packaging
             </p>
-            <p>
-              We will operate and continually improve the effectiveness of our
-              ISO 9001:2015 Quality Management System to ensure maintenance of
-              high service standards.{" "}
+            <hr className="mt-4 border" />
+            <p className="mt-3">
+              <span className="font-semibold">Factory Address </span> Khan
+              Mansion, Suit-9B (8th Floor) 28/A-5, Toyenbee Circular Road,
+              Motijheel C/A, Dhaka-1000.
             </p>
-            <p>
-              We will comply with all applicable laws and regulations and will
-              implement programs and procedures to assure compliance.
+            <hr className="mt-4 border" />
+            <p className="mt-3">
+              <span className="font-semibold">Nature of Business : </span>{" "}
+              Printing & Packaging.
             </p>
-            <p>
-              To this end, performance is measured at every level and
-              improvement implemented consistently and effectively.
+            <hr className="mt-4 border" />
+            <p className="mt-3">
+              <span className="font-semibold">Major products : </span>Corrugated
+              Fiber Board Carton or Shipping Carton.
             </p>
-            <p>
-              Furthermore, the company pro-actively seeks and values customer
-              feedback as a means of maximizing effectiveness and meeting
-              expectations.
+            <hr className="mt-4 border" />
+            <p className="mt-3">
+              <span className="font-semibold">Production Capacity :</span> 8
+              metric ton (per day)
             </p>
-            <p>
-              Relevant and regular staff training is considered essential
-              throughout the company in order to achieve the stated objectives.
+            <hr className="mt-4 border" />
+            <p className="mt-3">
+              <span className="font-semibold">Commercial Office : </span>600
+              sqft.
             </p>
-            <p>
-              We will communicate our commitment to quality to our employees,
-              external providers, customers and other interested parties (where
-              appropriate).
+            <hr className="mt-4 border" />
+            <p className="mt-3">
+              <span className="font-semibold">Factory Area : </span>14,000 sqft.
+              sqft.
             </p>
-            <p>
-              The Management and staff of Carton Manufacturers Limited are
-              committed to attaining the objectives of the quality policy and
-              shall review these objectives and the quality policy periodically
-              for continuing suitability to ensure achievement of customer
-              satisfaction.
-            </p>
-            <h1 className="text-[#7fb069] text-xl">CML Food Safety Policy</h1>
-            <p>
-              Carton Manufacturers Ltd is committed to the processing of boards
-              and corrugated cartons that ensures safe packaging of food meant
-              for human consumption through the implementation of FSSC 22000
-              (ISO 22000: 2018 + ISO/TS 22002-4: 2013 + Additional requirements)
-              Scheme Certification.
-            </p>
-            <p>Our full food safety policy is available for <span className="text-[#7fb069]">download.</span></p>
           </div>
         </div>
       </div>
