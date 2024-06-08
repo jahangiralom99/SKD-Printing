@@ -10,7 +10,7 @@ import universal from "../../assets/universal.svg";
 
 const OurClients = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 mt-12">
+    <div id="client" className="max-w-screen-xl mx-auto px-4 mt-16">
       <div className="border-2 rounded p-8  mt-12 border-r-gray-400 border-b-gray-400 space-y-6">
         <h1 className="text-2xl text-center">Our Valuable Clients</h1>
         <p className="w-32 mx-auto h-[3px] bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full mt-4"></p>

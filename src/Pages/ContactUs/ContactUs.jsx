@@ -2,7 +2,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4">
+    <div id="contact" className="max-w-screen-xl mx-auto px-4 mt-16">
       <div className="border-2 rounded p-8  mt-12 border-r-gray-400 border-b-gray-400 space-y-6 ">
         <div className="flex flex-col lg:flex-row gap-6">
           <div className="lg:flex-1">

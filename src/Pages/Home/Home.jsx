@@ -1,4 +1,5 @@
 
+import AboutUs from "../AboutUs/AboutUs";
 import ContactUs from "../ContactUs/ContactUs";
 import FactorySpecs from "../FactorySpecs/FactorySpecs";
 import OurClients from "../OurClients/OurClients";
@@ -10,11 +11,12 @@ const Home = () => {
   return (
     <div>
       <Banner />
+      <AboutUs/>
+      <FactorySpecs/>
       <Product />
       <OurClients/>
-      <ContactUs/>
       <Packaging />
-      <FactorySpecs/>
+      <ContactUs/>
     </div>
   );
 };

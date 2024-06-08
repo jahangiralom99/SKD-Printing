@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bottom">
-      <div className=" mt-12 p-12 bottom-inner h-[500px]">
+    <footer className="bottom ">
+      <div className=" mt-12 p-12 bottom-inner ">
         <div className="flex flex-col md:flex-row  gap-24 max-w-screen-xl mx-auto px-4">
           <div className="space-y-4">
             <p className="text-black">
@@ -15,18 +15,7 @@ const Footer = () => {
             <p className="flex items-center gap-2 hover:underline cursor-pointer">
               <IoCallSharp /> +254 724 259897
             </p>
-            <p className="flex items-center gap-2 hover:underline cursor-pointer">
-              <IoCallSharp /> +254 724 259897
-            </p>
-            <p className="flex items-center gap-2 hover:underline cursor-pointer">
-              <IoCallSharp /> +254 724 259897
-            </p>
-            <p className="flex items-center gap-2 hover:underline cursor-pointer">
-              <IoCallSharp /> +254 724 259897
-            </p>
-            <p className="flex items-center gap-2 hover:underline cursor-pointer">
-              <IoCallSharp /> +254 724 259897
-            </p>
+         
           </div>
           <div className="space-y-4">
             <p className="hover:underline cursor-pointer"> About us</p>

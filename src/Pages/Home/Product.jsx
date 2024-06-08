@@ -52,7 +52,7 @@ const Product = () => {
   ];
 
   return (
-    <div className="max-w-screen-xl mx-auto px-4">
+    <div id="products" className="max-w-screen-xl mx-auto px-4 mt-16">
       <div className="p-2 border-2 border-r-gray-400 rounded mt-8">
         <h1 className="text-2xl text-[#e67e57] mt-4">Our Products</h1>
         {/* Card  */}

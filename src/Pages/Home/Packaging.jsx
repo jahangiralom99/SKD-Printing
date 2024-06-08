@@ -2,7 +2,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Packaging = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4">
+    <div id="packaging" className="max-w-screen-xl mx-auto px-4 mt-16">
       <div className="  border-2 border-r-gray-400 border-b-gray-400 rounded mt-12">
         <img
           className="w-full"
