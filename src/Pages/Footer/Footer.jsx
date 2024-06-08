@@ -8,7 +8,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row  gap-24 max-w-screen-xl mx-auto px-4">
           <div className="space-y-4">
             <p className="text-black">
-              Carton Manufacturers Ltd <br /> Wundanyi Rd, Off Lunga-Lunga Rd <br />
+              Carton Manufacturers Ltd <br /> Wundanyi Rd, Off Lunga-Lunga Rd{" "}
+              <br />
               Industrial area Nairobi
             </p>
             <p className="flex items-center gap-2 hover:underline cursor-pointer">
@@ -33,8 +34,12 @@ const Footer = () => {
             <p className="hover:underline cursor-pointer">Careers</p>
             <p className="hover:underline cursor-pointer">Contact</p>
           </div>
-              </div>
-              <p className="flex justify-end mt-8">© 2024 SKD Printing <Link to="https://ioniccorporation.com/">Ionic CORPORATION</Link> Privacy Policy. Crafted by Regulus.</p>
+        </div>
+        <p className="flex flex-col lg:flex-row justify-end gap-3 mt-8">
+          © 2024 SKD Printing{" "}
+          <Link to="https://ioniccorporation.com/">Ionic CORPORATION</Link>{" "}
+          Privacy Policy. Crafted by Regulus.
+        </p>
       </div>
     </footer>
   );

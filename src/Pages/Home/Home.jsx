@@ -1,3 +1,5 @@
+
+import ContactUs from "../ContactUs/ContactUs";
 import OurClients from "../OurClients/OurClients";
 import Banner from "./Banner";
 import FactorySpecs from "./FactorySpecs";
@@ -8,8 +10,9 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <OurClients/>
       <Product />
+      <OurClients/>
+      <ContactUs/>
       <Packaging />
       <FactorySpecs />
     </div>
