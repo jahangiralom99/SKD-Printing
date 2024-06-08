@@ -1,8 +1,8 @@
 
 import ContactUs from "../ContactUs/ContactUs";
+import FactorySpecs from "../FactorySpecs/FactorySpecs";
 import OurClients from "../OurClients/OurClients";
 import Banner from "./Banner";
-import FactorySpecs from "./FactorySpecs";
 import Packaging from "./Packaging";
 import Product from "./Product";
 
@@ -14,7 +14,7 @@ const Home = () => {
       <OurClients/>
       <ContactUs/>
       <Packaging />
-      <FactorySpecs />
+      <FactorySpecs/>
     </div>
   );
 };

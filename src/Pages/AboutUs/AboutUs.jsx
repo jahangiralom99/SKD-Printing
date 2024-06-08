@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import images from "../../assets/pleated-cardboard.jpg";
+import profile from "../../assets/profile.jpeg";
 
 const AboutUs = () => {
   return (
@@ -11,8 +12,32 @@ const AboutUs = () => {
         </Link>{" "}
         /<p>About us</p>
       </div>
-      <div className="max-w-screen-xl px-12 mx-auto">
+      <div className="max-w-screen-xl px-4 mx-auto">
         <div className="border-2 rounded p-8 text-center mt-12 border-r-gray-400 border-b-gray-400 space-y-6">
+          <div className="flex flex-col lg:flex-row items-center gap-6 justify-center p-4">
+            <div className="text-start space-y-4 flex-1">
+              <h1 className="text-3xl font-semibold">Introduction</h1>
+              <p className="w-32 h-[3px] bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full mt-4"></p>
+              <p>
+                SDK Printing & Packaging is a Proprietorship Company,
+                established in August 01, 2008 with a view to manufacturing
+                Corrugated Fiber Board and its related paper box products. The
+                company is involved in the Paper Converting and Printing
+                Business. It is mentionable that the proprietor of the company
+                Mr. Golam Sarwar is highly educated (IT Engineer experienced at
+                Toyoda Gosei, Cannon & Panasonic EV Energy, Japan) and have long
+                experience in this line of business as family business. He is
+                also General Body Member of FBCCI.
+              </p>
+            </div>
+            <div className="">
+              <img
+                className="w-80 rounded-full border-2"
+                src={profile}
+                alt="profile"
+              />
+            </div>
+          </div>
           <h1 className=" text-2xl ">Quality Assurance</h1>
           <p className="text-center ">
             Being a quality conscious organization, we are committed to offer a

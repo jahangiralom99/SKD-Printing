@@ -25,14 +25,15 @@ const Navbar = () => {
         </div>
         <div className="lg:flex bottom-inner text-center items-center p-2 gap-2">
           <Link to="/">
-            <img className="w-20 inline " src={logo} alt="logo.png" />
+            <img className="w-12 inline " src={logo} alt="logo.png" />
           </Link>
           <div>
-            <h1 className="text-3xl font-medium text-[#2e3192]">
+            <h1 className="text-2xl font-medium text-[#2e3192]">
               SKD PRINTING & PACKAGING
             </h1>
             <p>“One of the leading corrugated master carton industry”</p>
           </div>
+          {/* Phone View */}
           {open && (
             <div
               className={`list-none lg:hidden mt-3 cursor-pointer font-bold duration-500`}
@@ -51,7 +52,6 @@ const Navbar = () => {
           )}
         </div>
         <div className="lg:flex items-center hidden gap-6 font-bold list-none	">
-      
           <Link className="border-b-2 cursor-pointer hover:border-b-4 hover:border-[#7fb069]">
             About us
           </Link>
