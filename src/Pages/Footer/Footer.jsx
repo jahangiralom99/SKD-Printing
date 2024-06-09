@@ -8,12 +8,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row  gap-24 max-w-screen-xl mx-auto px-4">
           <div className="space-y-4">
             <p className="text-black">
-              Carton Manufacturers Ltd <br /> Wundanyi Rd, Off Lunga-Lunga Rd{" "}
-              <br />
-              Industrial area Nairobi
+           <span className="font-semibold text-xl">SDK Printing & Packaging</span> <br /> Khan Mansion, Suit-9B (8th Floor) 28/A-5, <br /> Toyenbee Circular Road, <br /> Motijheel C/A, Dhaka-1000.
             </p>
             <p className="flex items-center gap-2 hover:underline cursor-pointer">
-              <IoCallSharp /> +254 724 259897
+              <IoCallSharp /> +88-01714113082
             </p>
          
           </div>
