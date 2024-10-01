@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="p-4 bg-[#2e3192]">
         <div className=" px-4">
           <h1 className="text-white flex items-center gap-3 justify-end font-bold">
-            <IoCallSharp className="text-2xl" /> +254 724 259897
+            <IoCallSharp className="text-2xl" /> +88-01714113082
           </h1>
         </div>
       </div>
@@ -39,12 +39,24 @@ const Navbar = () => {
             <div
               className={`list-none lg:hidden mt-3 cursor-pointer font-bold flex flex-col duration-500`}
             >
-              <a href="#about" className=" p-2 border">About us</a>
-              <a  href="#factory" className="border p-2">Factory Specs</a>
-              <a href="#products" className="border p-2">Our Products</a>
-              <a  href="#client" className="border p-2">Our Clients</a>
-              <a  href="#packaging" className="border p-2">Packaging</a>
-              <a  href="#contact" className="border p-2">Contact Us</a>
+              <a href="#about" className=" p-2 border">
+                About us
+              </a>
+              <a href="#factory" className="border p-2">
+                Factory Specs
+              </a>
+              <a href="#products" className="border p-2">
+                Our Products
+              </a>
+              <a href="#client" className="border p-2">
+                Our Clients
+              </a>
+              <a href="#packaging" className="border p-2">
+                Packaging
+              </a>
+              <a href="#contact" className="border p-2">
+                Contact Us
+              </a>
             </div>
           )}
         </div>
